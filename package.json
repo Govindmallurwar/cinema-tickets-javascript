@@ -1,0 +1,27 @@
+{
+  "name": "cinema-tickets-javascript",
+  "description": "This is a coding exercise which will allow you to demonstrate how you code and your approach to a given problem.",
+  "version": "1.0.1",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-plugin-prettier": "^5.5.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "jest": "^30.0.4",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
+    "babel-jest": "^30.0.4",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0"
+  }
+}
